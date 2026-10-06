@@ -1,182 +1,97 @@
 {
-  "amazon_billing": {
-    "sku_monthly": "premium_monthly_01",
+  "amazon_billing": {"sku_monthly": "premium_monthly_01",
     "sku_yearly": "premium_yearly_01"
   },
+  "house_ads": [
+    {
+      "title": "✨ Premium Access",
+      "body": "Get 100+ exclusive 4K atmospheres and remove all ads."
+    },
+    {
+      "title": "💡 Pro Tip",
+      "body": "Press the UP button on your remote to toggle the clock."
+    },
+    {
+      "title": "🎆 Magic Burst",
+      "body": "Press OK to trigger a magical sparkle explosion!"
+    }
+  ],
   "categories": [
     {
-      "name": "🌿 Nature Relax (Free)",
+      "name": "🌿 Nature Essentials (Free)",
       "items": [
-        {
-          "id": "nature_01",
-          "type": "image",
-          "name": "Summer Forest",
-          "premium": false,
-          "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920",
-          "audio_url": "https://www.soundjay.com/nature/sounds/forest-birds-01.mp3"
-        },
-        {
-          "id": "nature_02",
-          "type": "animation",
-          "name": "Aurora Particles",
-          "premium": false,
-          "bg1": "#000428",
-          "bg2": "#004e92",
-          "palette": ["#00f2fe", "#4facfe", "#ffffff"]
-        },
-        {
-          "id": "nature_03",
-          "type": "video",
-          "name": "Ocean Waves",
-          "premium": false,
-          "url": "https://pixabay.com/videos/download/video-174031_medium.mp4"
-        }
+        { "id": "n1", "type": "image", "name": "Mystic Forest", "premium": false, "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920", "audio_url": "https://www.soundjay.com/nature/sounds/forest-birds-01.mp3" },
+        { "id": "n2", "type": "image", "name": "Deep Ocean", "premium": false, "url": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1920" },
+        { "id": "n3", "type": "video", "name": "Calm River", "premium": false, "url": "https://pixabay.com/videos/download/video-174031_medium.mp4" }
       ]
     },
     {
-      "name": "🏔️ Premium Mountains (4K)",
+      "name": "🏔️ Majestic Mountains (Pro)",
       "items": [
-        {
-          "id": "mount_01",
-          "type": "image",
-          "name": "Swiss Alps Sunset",
-          "premium": true,
-          "url": "https://pixabay.com/images/download/x-6883940_1920.jpg",
-          "audio_url": "https://your-host.com/wind_soft.mp3"
-        },
-        {
-          "id": "mount_02",
-          "type": "video",
-          "name": "Snowy Peaks Drone",
-          "premium": true,
-          "url": "https://pixabay.com/videos/download/x-137748_medium.mp4"
-        },
-        {
-          "id": "mount_03",
-          "type": "image",
-          "name": "Himalayan Morning",
-          "premium": true,
-          "url": "https://pixabay.com/images/download/x-9602831_1920.jpg"
-        },
-        {
-          "id": "mount_04",
-          "type": "video",
-          "name": "Mountain Stream",
-          "premium": true,
-          "url": "https://your-host.com/stream.mp4"
-        }
+        { "id": "m1", "type": "image", "name": "Alps at Dawn", "premium": true, "url": "https://your-host.com/m1.jpg" },
+        { "id": "m2", "type": "video", "name": "Snowy Summit Drone", "premium": true, "url": "https://your-host.com/m2.mp4" },
+        { "id": "m3", "type": "image", "name": "Rocky Peak", "premium": true, "url": "https://your-host.com/m3.jpg" },
+        { "id": "m4", "type": "video", "name": "Mountain Fog", "premium": true, "url": "https://your-host.com/m4.mp4" },
+        { "id": "m5", "type": "image", "name": "Golden Ridge", "premium": true, "url": "https://your-host.com/m5.jpg" }
       ]
     },
     {
       "name": "🌃 Global Cities (Premium)",
       "items": [
-        {
-          "id": "city_01",
-          "type": "video",
-          "name": "Tokyo Night Rain",
-          "premium": true,
-          "url": "https://your-host.com/tokyo_rain.mp4"
-        },
-        {
-          "id": "city_02",
-          "type": "image",
-          "name": "New York Skyline",
-          "premium": true,
-          "url": "https://your-host.com/nyc.jpg",
-          "audio_url": "https://your-host.com/city_ambience.mp3"
-        },
-        {
-          "id": "city_03",
-          "type": "video",
-          "name": "Paris Cafe Street",
-          "premium": true,
-          "url": "https://your-host.com/paris.mp4"
-        },
-        {
-          "id": "city_04",
-          "type": "video",
-          "name": "Dubai Marina Lights",
-          "premium": true,
-          "url": "https://your-host.com/dubai.mp4"
-        }
+        { "id": "c1", "type": "video", "name": "Tokyo Neon Nights", "premium": true, "url": "https://your-host.com/c1.mp4" },
+        { "id": "c2", "type": "image", "name": "Manhattan Skyline", "premium": true, "url": "https://your-host.com/c2.jpg" },
+        { "id": "c3", "type": "video", "name": "Paris Rain", "premium": true, "url": "https://your-host.com/c3.mp4" },
+        { "id": "c4", "type": "image", "name": "London Bridge", "premium": true, "url": "https://your-host.com/c4.jpg" },
+        { "id": "c5", "type": "video", "name": "Dubai Lights", "premium": true, "url": "https://your-host.com/c5.mp4" },
+        { "id": "c6", "type": "image", "name": "Rome Ancient Sunset", "premium": true, "url": "https://your-host.com/c6.jpg" },
+        { "id": "c7", "type": "video", "name": "Hong Kong Harbor", "premium": true, "url": "https://your-host.com/c7.mp4" }
       ]
     },
     {
-      "name": "🌌 Space & Cosmic (VIP)",
+      "name": "🌌 Cosmic Wonders (VIP)",
       "items": [
-        {
-          "id": "space_01",
-          "type": "animation",
-          "name": "Deep Space Glow",
-          "premium": true,
-          "bg1": "#0f0c29",
-          "bg2": "#302b63",
-          "palette": ["#24243e", "#ffffff", "#8e44ad"]
-        },
-        {
-          "id": "space_02",
-          "type": "video",
-          "name": "Mars Surface Walk",
-          "premium": true,
-          "url": "https://www.screensaversplanet.com/video/screensavers/1781.mp4"
-        },
-        {
-          "id": "space_03",
-          "type": "image",
-          "name": "Orion Nebula 4K",
-          "premium": true,
-          "url": "https://images.pexels.com/photos/137608/pexels-photo-137608.jpeg"
-        }
+        { "id": "s1", "type": "animation", "name": "Starfield Journey", "premium": true, "bg1": "#000000", "bg2": "#1a1a2e", "palette": ["#4ecca3", "#ffffff", "#45EBA5"] },
+        { "id": "s2", "type": "video", "name": "Mars Atmosphere", "premium": true, "url": "https://your-host.com/s2.mp4" },
+        { "id": "s3", "type": "image", "name": "Andromeda Galaxy", "premium": true, "url": "https://your-host.com/s3.jpg" },
+        { "id": "s4", "type": "video", "name": "Sun Solar Flares", "premium": true, "url": "https://your-host.com/s4.mp4" },
+        { "id": "s5", "type": "image", "name": "Moon Surface 4K", "premium": true, "url": "https://your-host.com/s5.jpg" }
       ]
     },
     {
-      "name": "🕯️ Indoor Coziness",
+      "name": "🕯️ Cozy Interiors",
       "items": [
-        {
-          "id": "cozy_01",
-          "type": "video",
-          "name": "Classic Fireplace",
-          "premium": true,
-          "url": "https://your-host.com/fire_4k.mp4"
-        },
-        {
-          "id": "cozy_02",
-          "type": "video",
-          "name": "Rain on Window",
-          "premium": true,
-          "url": "https://your-host.com/rain_glass.mp4"
-        },
-        {
-          "id": "cozy_03",
-          "type": "image",
-          "name": "Library at Night",
-          "premium": true,
-          "url": "https://your-host.com/library.jpg",
-          "audio_url": "https://your-host.com/page_turning.mp3"
-        }
+        { "id": "z1", "type": "video", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/video-174031_medium.mp4" },
+        { "id": "z2", "type": "video", "name": "Rain on Library Window", "premium": true, "url": "https://your-host.com/z2.mp4" },
+        { "id": "z3", "type": "image", "name": "Warm Attic Rain", "premium": true, "url": "https://your-host.com/z3.jpg", "audio_url": "https://your-host.com/rain_sound.mp3" },
+        { "id": "z4", "type": "video", "name": "Jazz Coffee Shop", "premium": true, "url": "https://your-host.com/z4.mp4" },
+        { "id": "z5", "type": "image", "name": "Bedroom Thunderstorm", "premium": true, "url": "https://your-host.com/z5.jpg" }
       ]
     },
     {
-      "name": "🎨 Abstract Art",
+      "name": "🌊 Tropical Escapes",
       "items": [
-        {
-          "id": "abs_01",
-          "type": "animation",
-          "name": "Golden Silk",
-          "premium": true,
-          "bg1": "#bf953f",
-          "bg2": "#aaafad",
-          "palette": ["#fcf6ba", "#d4af37", "#ffffff"]
-        },
-        {
-          "id": "abs_02",
-          "type": "animation",
-          "name": "Cyber Matrix",
-          "premium": true,
-          "bg1": "#000000",
-          "bg2": "#003300",
-          "palette": ["#00FF00", "#008000", "#33FF33"]
-        }
+        { "id": "t1", "type": "video", "name": "Maldives Crystal Water", "premium": true, "url": "https://your-host.com/t1.mp4" },
+        { "id": "t2", "type": "image", "name": "Bora Bora Sunset", "premium": true, "url": "https://your-host.com/t2.jpg" },
+        { "id": "t3", "type": "video", "name": "Palm Trees Wind", "premium": true, "url": "https://your-host.com/t3.mp4" },
+        { "id": "t4", "type": "image", "name": "White Sand Beach", "premium": true, "url": "https://your-host.com/t4.jpg" },
+        { "id": "t5", "type": "video", "name": "Underwater Coral Reef", "premium": true, "url": "https://your-host.com/t5.mp4" }
+      ]
+    },
+    {
+      "name": "🎨 Abstract & Art",
+      "items": [
+        { "id": "a1", "type": "animation", "name": "Liquid Gold Flow", "premium": true, "bg1": "#1a1a1a", "bg2": "#bf953f", "palette": ["#fcf6ba", "#ffffff"] },
+        { "id": "a2", "type": "animation", "name": "Cyber Grid", "premium": true, "bg1": "#000000", "bg2": "#001a1a", "palette": ["#00ffcc", "#0080ff"] },
+        { "id": "a3", "type": "animation", "name": "Blue Silk Waves", "premium": true, "bg1": "#000d1a", "bg2": "#00264d", "palette": ["#0080ff", "#ffffff"] }
+      ]
+    },
+    {
+      "name": "🦁 Wildlife Haven",
+      "items": [
+        { "id": "w1", "type": "video", "name": "Lion King Savannah", "premium": true, "url": "https://your-host.com/w1.mp4" },
+        { "id": "w2", "type": "image", "name": "Amazon Macaws", "premium": true, "url": "https://your-host.com/w2.jpg" },
+        { "id": "w3", "type": "video", "name": "Gentle Giants Elephants", "premium": true, "url": "https://your-host.com/w3.mp4" },
+        { "id": "w4", "type": "image", "name": "Polar Bear Arctic", "premium": true, "url": "https://your-host.com/w4.jpg" }
       ]
     }
   ]
