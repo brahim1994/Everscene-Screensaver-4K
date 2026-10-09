@@ -29,7 +29,7 @@
       "name": "🏔️ Majestic Mountains (Pro)",
       "items": [
         { "id": "m1", "type": "image", "name": "Alps at Dawn", "premium": true, "url": "https://your-host.com/m1.jpg" },
-        { "id": "m2", "type": "video", "name": "Snowy Summit Drone", "premium": true, "url": "https://your-host.com/m2.mp4" },
+        { "id": "m2", "type": "video", "name": "Snowy Summit Drone", "premium": true, "url": "https://www.screensaversplanet.com/video/screensavers/1781.mp4" },
         { "id": "m3", "type": "image", "name": "Rocky Peak", "premium": true, "url": "https://your-host.com/m3.jpg" },
         { "id": "m4", "type": "video", "name": "Mountain Fog", "premium": true, "url": "https://your-host.com/m4.mp4" },
         { "id": "m5", "type": "image", "name": "Golden Ridge", "premium": true, "url": "https://your-host.com/m5.jpg" }
