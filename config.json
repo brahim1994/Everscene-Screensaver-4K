@@ -60,7 +60,7 @@
     {
       "name": "🕯️ Cozy Interiors",
       "items": [
-        { "id": "z1", "type": "video", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/video-174031_medium.mp4" },
+        { "id": "z1", "type": "video", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/x-190776_medium.mp4", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3" },
         { "id": "z2", "type": "video", "name": "Rain on Library Window", "premium": true, "url": "https://your-host.com/z2.mp4" },
         { "id": "z3", "type": "image", "name": "Warm Attic Rain", "premium": true, "url": "https://your-host.com/z3.jpg", "audio_url": "https://your-host.com/rain_sound.mp3" },
         { "id": "z4", "type": "video", "name": "Jazz Coffee Shop", "premium": true, "url": "https://your-host.com/z4.mp4" },
