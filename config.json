@@ -20,7 +20,7 @@
     {
       "name": "🌿 Nature Essentials (Free)",
       "items": [
-        { "id": "n1", "type": "image", "name": "Mystic Forest", "premium": false, "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920", "audio_url": "https://www.soundjay.com/nature/sounds/forest-birds-01.mp3" },
+        { "id": "n1", "type": "image", "name": "Mystic Forest", "premium": false, "url": "https://pixabay.com/images/download/x-8876526_1920.png", "audio_url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3" },
         { "id": "n2", "type": "image", "name": "Deep Ocean", "premium": false, "url": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1920" },
         { "id": "n3", "type": "video", "name": "Calm River", "premium": false, "url": "https://pixabay.com/videos/download/video-174031_medium.mp4" }
       ]
@@ -28,8 +28,8 @@
     {
       "name": "🏔️ Majestic Mountains (Pro)",
       "items": [
-        { "id": "m1", "type": "image", "name": "Alps at Dawn", "premium": true, "url": "https://your-host.com/m1.jpg" },
-        { "id": "m2", "type": "video", "name": "Snowy Summit Drone", "premium": true, "url": "https://www.screensaversplanet.com/video/screensavers/1781.mp4" },
+        { "id": "m1", "type": "image", "name": "Alps at Dawn", "premium": true, "url": "https://pixabay.com/images/download/x-5440720_1920.jpg" },
+        { "id": "m2", "type": "video", "name": "Snowy Summit Drone", "premium": true, "url": "https://cdn.pixabay.com/video/2026/03/08/338904_tiny.mp4https://www.screensaversplanet.com/video/screensavers/1781.mp4" },
         { "id": "m3", "type": "image", "name": "Rocky Peak", "premium": true, "url": "https://your-host.com/m3.jpg" },
         { "id": "m4", "type": "video", "name": "Mountain Fog", "premium": true, "url": "https://your-host.com/m4.mp4" },
         { "id": "m5", "type": "image", "name": "Golden Ridge", "premium": true, "url": "https://your-host.com/m5.jpg" }
