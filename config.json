@@ -10,7 +10,7 @@
       "name": "🌿 Forest Escapes",
       "items": [
         {"id": "c001_01", "type": "auto", "name": "Mystic Forest", "premium": false, "url": "https://videos.pexels.com/video-files/14213657/14213657-uhd_2732_1440_24fps.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3"},
-        {"id": "c001_02", "type": "auto", "name": "Forest Escapes 2", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_02", "type": "auto", "name": "Forest Escapes 2", "premium": false, "url": "https://pixabay.com/fr/videos/download/x-152174_medium.mp4", "preview_url": ""},
         {"id": "c001_03", "type": "auto", "name": "Forest Escapes 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c001_04", "type": "auto", "name": "Forest Escapes 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c001_05", "type": "auto", "name": "Forest Escapes 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
