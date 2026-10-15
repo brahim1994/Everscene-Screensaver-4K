@@ -1,6 +1,6 @@
 {
   "amazon_billing": { "sku_monthly": "premium_monthly_01", "sku_yearly": "premium_yearly_01" },
-  "all_free": true,
+  "all_free": false,
   "unlock": {
     "hashes": [
       "e35f0da3b7a31bb8c1475885effbe9d1290f63d1",
