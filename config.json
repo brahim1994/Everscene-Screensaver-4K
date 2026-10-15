@@ -774,7 +774,7 @@
     {
       "name": "🔥 Fireplaces",
       "items": [
-        {"id": "c052_01", "type": "auto", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/x-190776_medium.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3"},
+        {"id": "c052_01", "type": "auto", "name": "Vintage Fireplace", "premium": true, "url": "https://cdn.pixabay.com/video/2016/01/24/1971-152947486_large.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3"},
         {"id": "c052_02", "type": "auto", "name": "Fireplaces 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c052_03", "type": "auto", "name": "Fireplaces 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c052_04", "type": "auto", "name": "Fireplaces 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
