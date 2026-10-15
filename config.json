@@ -1,19 +1,43 @@
 {
   "amazon_billing": { "sku_monthly": "premium_monthly_01", "sku_yearly": "premium_yearly_01" },
+  "all_free": false,
+  "unlock": {
+    "hashes": [
+      "e35f0da3b7a31bb8c1475885effbe9d1290f63d1",
+      "b19c3741d4dbe00ba6147bdc1b9ff0363f43e34d",
+      "ec095bd9f0bad31cc666a4fafda8c08e94c30837",
+      "7c45c009fa4fc22b34d13e9dd7776af591964955",
+      "501cd83f33b23e76e210fa6783e12d66ea1921f4"
+    ]
+  },
   "house_ads": [
     { "title": "✨ Premium Access", "body": "Get 100+ exclusive 4K atmospheres and remove all ads." },
     { "title": "💡 Pro Tip", "body": "Press the UP button on your remote to toggle the clock." },
     { "title": "🎆 Magic Burst", "body": "Press OK to trigger a magical sparkle explosion!" }
+  ],
+  "music": [
+    { "name": "Forest Ambience", "url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3" },
+    { "name": "Deep Ocean", "url": "https://cdn.pixabay.com/audio/2024/01/23/audio_eec3a6aae5.mp3" },
+    { "name": "Cozy Fireplace", "url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3" },
+    { "name": "Rain on Roof", "url": "https://actions.google.com/sounds/v1/water/rain_on_roof.ogg" },
+    { "name": "Morning Birds", "url": "https://actions.google.com/sounds/v1/ambiences/morning_birds.ogg" },
+    { "name": "Fireplace Crackle", "url": "https://actions.google.com/sounds/v1/ambiences/fireplace.ogg" },
+    { "name": "My Track 1", "url": "PASTE_LINK" },
+    { "name": "My Track 2", "url": "PASTE_LINK" },
+    { "name": "My Track 3", "url": "PASTE_LINK" },
+    { "name": "My Track 4", "url": "PASTE_LINK" },
+    { "name": "My Track 5", "url": "PASTE_LINK" },
+    { "name": "My Track 6", "url": "PASTE_LINK" }
   ],
   "categories": [
     {
       "name": "🌿 Forest Escapes",
       "items": [
         {"id": "c001_01", "type": "auto", "name": "Mystic Forest", "premium": false, "url": "https://videos.pexels.com/video-files/14213657/14213657-uhd_2732_1440_24fps.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3"},
-        {"id": "c001_02", "type": "auto", "name": "Forest Escapes 2", "premium": false, "url": "https://pixabay.com/fr/videos/download/x-152174_medium.mp4", "preview_url": ""},
-        {"id": "c001_03", "type": "auto", "name": "Forest Escapes 3", "premium": false, "url": "https://www.pexels.com/download/video/26081676/", "preview_url": "https://www.pexels.com/download/video/26081676/"},
-        {"id": "c001_04", "type": "auto", "name": "Forest Escapes 4", "premium": false, "url": "https://pixabay.com/videos/download/video-174031_medium.mp4", "preview_url": ""},
-        {"id": "c001_05", "type": "auto", "name": "Forest Escapes 5", "premium": false, "url": "https://cdn.pixabay.com/video/2023/07/31/174031-850286646_large.mp4", "preview_url": "https://pixabay.com/fr/images/download/x-5411408_1920.jpg"},
+        {"id": "c001_02", "type": "auto", "name": "Forest Escapes 2", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_03", "type": "auto", "name": "Forest Escapes 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_04", "type": "auto", "name": "Forest Escapes 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_05", "type": "auto", "name": "Forest Escapes 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c001_06", "type": "auto", "name": "Forest Escapes 6", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c001_07", "type": "auto", "name": "Forest Escapes 7", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c001_08", "type": "auto", "name": "Forest Escapes 8", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
@@ -774,7 +798,7 @@
     {
       "name": "🔥 Fireplaces",
       "items": [
-        {"id": "c052_01", "type": "auto", "name": "Vintage Fireplace", "premium": true, "url": "https://cdn.pixabay.com/video/2016/01/24/1971-152947486_large.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3"},
+        {"id": "c052_01", "type": "auto", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/x-190776_medium.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3"},
         {"id": "c052_02", "type": "auto", "name": "Fireplaces 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c052_03", "type": "auto", "name": "Fireplaces 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
         {"id": "c052_04", "type": "auto", "name": "Fireplaces 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
