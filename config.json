@@ -1,98 +1,1509 @@
 {
-  "amazon_billing": {"sku_monthly": "premium_monthly_01",
-    "sku_yearly": "premium_yearly_01"
-  },
+  "amazon_billing": { "sku_monthly": "premium_monthly_01", "sku_yearly": "premium_yearly_01" },
   "house_ads": [
-    {
-      "title": "✨ Premium Access",
-      "body": "Get 100+ exclusive 4K atmospheres and remove all ads."
-    },
-    {
-      "title": "💡 Pro Tip",
-      "body": "Press the UP button on your remote to toggle the clock."
-    },
-    {
-      "title": "🎆 Magic Burst",
-      "body": "Press OK to trigger a magical sparkle explosion!"
-    }
+    { "title": "✨ Premium Access", "body": "Get 100+ exclusive 4K atmospheres and remove all ads." },
+    { "title": "💡 Pro Tip", "body": "Press the UP button on your remote to toggle the clock." },
+    { "title": "🎆 Magic Burst", "body": "Press OK to trigger a magical sparkle explosion!" }
   ],
   "categories": [
     {
-      "name": "🌿 Nature Essentials (Free)",
+      "name": "🌿 Forest Escapes",
       "items": [
-        { "id": "n1", "type": "image", "name": "Mystic Forest", "premium": false, "url": "https://videos.pexels.com/video-files/14213657/14213657-uhd_2732_1440_24fps.mp4", "audio_url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3" },
-        { "id": "n2", "type": "image", "name": "Deep Ocean", "premium": false, "url": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1920","audio_url": "https://cdn.pixabay.com/audio/2024/01/23/audio_eec3a6aae5.mp3" },
-        { "id": "n3", "type": "video", "name": "Calm River", "premium": false, "url": "https://pixabay.com/videos/download/x-117844_medium.mp4" },
-        { "id": "n4", "type": "video", "name": "Waterfall, river", "premium": false, "url": "https://github.com/brahim1994/stitchvideo/releases/download/sti/tv.mp4", "audio_url":"https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3" }
+        {"id": "c001_01", "type": "auto", "name": "Mystic Forest", "premium": false, "url": "https://videos.pexels.com/video-files/14213657/14213657-uhd_2732_1440_24fps.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3"},
+        {"id": "c001_02", "type": "auto", "name": "Forest Escapes 2", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_03", "type": "auto", "name": "Forest Escapes 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_04", "type": "auto", "name": "Forest Escapes 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_05", "type": "auto", "name": "Forest Escapes 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_06", "type": "auto", "name": "Forest Escapes 6", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_07", "type": "auto", "name": "Forest Escapes 7", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_08", "type": "auto", "name": "Forest Escapes 8", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_09", "type": "auto", "name": "Forest Escapes 9", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c001_10", "type": "auto", "name": "Forest Escapes 10", "premium": false, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
-      "name": "🏔️ Majestic Mountains (Pro)",
+      "name": "🌊 Ocean Waves",
       "items": [
-        { "id": "m1", "type": "image", "name": "Alps at Dawn", "premium": true, "url": "https://pixabay.com/images/download/x-5440720_1920.jpg" },
-        { "id": "m2", "type": "video", "name": "Snowy Summit Drone", "premium": true, "url": "https://cdn.pixabay.com/video/2026/03/08/338904_tiny.mp4https://www.screensaversplanet.com/video/screensavers/1781.mp4" },
-        { "id": "m3", "type": "image", "name": "Rocky Peak", "premium": true, "url": "https://your-host.com/m3.jpg" },
-        { "id": "m4", "type": "video", "name": "Mountain Fog", "premium": true, "url": "https://your-host.com/m4.mp4" },
-        { "id": "m5", "type": "image", "name": "Golden Ridge", "premium": true, "url": "https://your-host.com/m5.jpg" }
+        {"id": "c002_01", "type": "auto", "name": "Deep Ocean", "premium": false, "url": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1920", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2024/01/23/audio_eec3a6aae5.mp3"},
+        {"id": "c002_02", "type": "auto", "name": "Ocean Waves 2", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_03", "type": "auto", "name": "Ocean Waves 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_04", "type": "auto", "name": "Ocean Waves 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_05", "type": "auto", "name": "Ocean Waves 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_06", "type": "auto", "name": "Ocean Waves 6", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_07", "type": "auto", "name": "Ocean Waves 7", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_08", "type": "auto", "name": "Ocean Waves 8", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_09", "type": "auto", "name": "Ocean Waves 9", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c002_10", "type": "auto", "name": "Ocean Waves 10", "premium": false, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
-      "name": "🌃 Global Cities (Premium)",
+      "name": "🏔️ Majestic Mountains",
       "items": [
-        { "id": "c1", "type": "video", "name": "Tokyo Neon Nights", "premium": true, "url": "https://your-host.com/c1.mp4" },
-        { "id": "c2", "type": "image", "name": "Manhattan Skyline", "premium": true, "url": "https://your-host.com/c2.jpg" },
-        { "id": "c3", "type": "video", "name": "Paris Rain", "premium": true, "url": "https://your-host.com/c3.mp4" },
-        { "id": "c4", "type": "image", "name": "London Bridge", "premium": true, "url": "https://your-host.com/c4.jpg" },
-        { "id": "c5", "type": "video", "name": "Dubai Lights", "premium": true, "url": "https://your-host.com/c5.mp4" },
-        { "id": "c6", "type": "image", "name": "Rome Ancient Sunset", "premium": true, "url": "https://your-host.com/c6.jpg" },
-        { "id": "c7", "type": "video", "name": "Hong Kong Harbor", "premium": true, "url": "https://your-host.com/c7.mp4" }
+        {"id": "c003_01", "type": "auto", "name": "Alps at Dawn", "premium": false, "url": "https://pixabay.com/images/download/x-5440720_1920.jpg", "preview_url": ""},
+        {"id": "c003_02", "type": "auto", "name": "Snowy Summit Drone", "premium": false, "url": "https://cdn.pixabay.com/video/2026/03/08/338904_tiny.mp4", "preview_url": ""},
+        {"id": "c003_03", "type": "auto", "name": "Majestic Mountains 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_04", "type": "auto", "name": "Majestic Mountains 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_05", "type": "auto", "name": "Majestic Mountains 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_06", "type": "auto", "name": "Majestic Mountains 6", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_07", "type": "auto", "name": "Majestic Mountains 7", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_08", "type": "auto", "name": "Majestic Mountains 8", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_09", "type": "auto", "name": "Majestic Mountains 9", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c003_10", "type": "auto", "name": "Majestic Mountains 10", "premium": false, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
-      "name": "🌌 Cosmic Wonders (VIP)",
+      "name": "🌅 Golden Sunsets",
       "items": [
-        { "id": "s1", "type": "animation", "name": "Starfield Journey", "premium": true, "bg1": "#000000", "bg2": "#1a1a2e", "palette": ["#4ecca3", "#ffffff", "#45EBA5"] },
-        { "id": "s2", "type": "video", "name": "Mars Atmosphere", "premium": true, "url": "https://your-host.com/s2.mp4" },
-        { "id": "s3", "type": "image", "name": "Andromeda Galaxy", "premium": true, "url": "https://your-host.com/s3.jpg" },
-        { "id": "s4", "type": "video", "name": "Sun Solar Flares", "premium": true, "url": "https://your-host.com/s4.mp4" },
-        { "id": "s5", "type": "image", "name": "Moon Surface 4K", "premium": true, "url": "https://your-host.com/s5.jpg" }
+        {"id": "c004_01", "type": "auto", "name": "Golden Sunsets 1", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_02", "type": "auto", "name": "Golden Sunsets 2", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_03", "type": "auto", "name": "Golden Sunsets 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_04", "type": "auto", "name": "Golden Sunsets 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_05", "type": "auto", "name": "Golden Sunsets 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_06", "type": "auto", "name": "Golden Sunsets 6", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_07", "type": "auto", "name": "Golden Sunsets 7", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_08", "type": "auto", "name": "Golden Sunsets 8", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_09", "type": "auto", "name": "Golden Sunsets 9", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c004_10", "type": "auto", "name": "Golden Sunsets 10", "premium": false, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌌 Night Sky & Stars",
+      "items": [
+        {"id": "c005_01", "type": "animation", "name": "Starfield Journey", "premium": false, "bg1": "#000000", "bg2": "#1a1a2e", "palette": ["#4ecca3", "#ffffff", "#45EBA5"]},
+        {"id": "c005_02", "type": "auto", "name": "Night Sky & Stars 2", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_03", "type": "auto", "name": "Night Sky & Stars 3", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_04", "type": "auto", "name": "Night Sky & Stars 4", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_05", "type": "auto", "name": "Night Sky & Stars 5", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_06", "type": "auto", "name": "Night Sky & Stars 6", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_07", "type": "auto", "name": "Night Sky & Stars 7", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_08", "type": "auto", "name": "Night Sky & Stars 8", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_09", "type": "auto", "name": "Night Sky & Stars 9", "premium": false, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c005_10", "type": "auto", "name": "Night Sky & Stars 10", "premium": false, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "💧 Waterfalls",
+      "items": [
+        {"id": "c006_01", "type": "auto", "name": "Waterfall, river", "premium": true, "url": "https://github.com/brahim1994/stitchvideo/releases/download/sti/tv.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2026/08/11/audio_a0510b71d9.mp3"},
+        {"id": "c006_02", "type": "auto", "name": "Waterfalls 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_03", "type": "auto", "name": "Waterfalls 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_04", "type": "auto", "name": "Waterfalls 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_05", "type": "auto", "name": "Waterfalls 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_06", "type": "auto", "name": "Waterfalls 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_07", "type": "auto", "name": "Waterfalls 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_08", "type": "auto", "name": "Waterfalls 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_09", "type": "auto", "name": "Waterfalls 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c006_10", "type": "auto", "name": "Waterfalls 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏝️ Tropical Islands",
+      "items": [
+        {"id": "c007_01", "type": "auto", "name": "Tropical Islands 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_02", "type": "auto", "name": "Tropical Islands 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_03", "type": "auto", "name": "Tropical Islands 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_04", "type": "auto", "name": "Tropical Islands 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_05", "type": "auto", "name": "Tropical Islands 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_06", "type": "auto", "name": "Tropical Islands 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_07", "type": "auto", "name": "Tropical Islands 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_08", "type": "auto", "name": "Tropical Islands 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_09", "type": "auto", "name": "Tropical Islands 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c007_10", "type": "auto", "name": "Tropical Islands 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏜️ Desert Dunes",
+      "items": [
+        {"id": "c008_01", "type": "auto", "name": "Desert Dunes 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_02", "type": "auto", "name": "Desert Dunes 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_03", "type": "auto", "name": "Desert Dunes 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_04", "type": "auto", "name": "Desert Dunes 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_05", "type": "auto", "name": "Desert Dunes 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_06", "type": "auto", "name": "Desert Dunes 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_07", "type": "auto", "name": "Desert Dunes 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_08", "type": "auto", "name": "Desert Dunes 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_09", "type": "auto", "name": "Desert Dunes 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c008_10", "type": "auto", "name": "Desert Dunes 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "❄️ Winter Wonderland",
+      "items": [
+        {"id": "c009_01", "type": "auto", "name": "Winter Wonderland 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_02", "type": "auto", "name": "Winter Wonderland 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_03", "type": "auto", "name": "Winter Wonderland 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_04", "type": "auto", "name": "Winter Wonderland 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_05", "type": "auto", "name": "Winter Wonderland 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_06", "type": "auto", "name": "Winter Wonderland 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_07", "type": "auto", "name": "Winter Wonderland 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_08", "type": "auto", "name": "Winter Wonderland 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_09", "type": "auto", "name": "Winter Wonderland 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c009_10", "type": "auto", "name": "Winter Wonderland 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🍂 Autumn Colors",
+      "items": [
+        {"id": "c010_01", "type": "auto", "name": "Autumn Colors 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_02", "type": "auto", "name": "Autumn Colors 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_03", "type": "auto", "name": "Autumn Colors 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_04", "type": "auto", "name": "Autumn Colors 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_05", "type": "auto", "name": "Autumn Colors 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_06", "type": "auto", "name": "Autumn Colors 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_07", "type": "auto", "name": "Autumn Colors 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_08", "type": "auto", "name": "Autumn Colors 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_09", "type": "auto", "name": "Autumn Colors 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c010_10", "type": "auto", "name": "Autumn Colors 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌸 Spring Blossoms",
+      "items": [
+        {"id": "c011_01", "type": "auto", "name": "Spring Blossoms 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_02", "type": "auto", "name": "Spring Blossoms 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_03", "type": "auto", "name": "Spring Blossoms 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_04", "type": "auto", "name": "Spring Blossoms 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_05", "type": "auto", "name": "Spring Blossoms 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_06", "type": "auto", "name": "Spring Blossoms 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_07", "type": "auto", "name": "Spring Blossoms 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_08", "type": "auto", "name": "Spring Blossoms 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_09", "type": "auto", "name": "Spring Blossoms 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c011_10", "type": "auto", "name": "Spring Blossoms 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌧️ Rainy Days",
+      "items": [
+        {"id": "c012_01", "type": "auto", "name": "Rainy Days 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_02", "type": "auto", "name": "Rainy Days 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_03", "type": "auto", "name": "Rainy Days 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_04", "type": "auto", "name": "Rainy Days 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_05", "type": "auto", "name": "Rainy Days 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_06", "type": "auto", "name": "Rainy Days 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_07", "type": "auto", "name": "Rainy Days 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_08", "type": "auto", "name": "Rainy Days 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_09", "type": "auto", "name": "Rainy Days 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c012_10", "type": "auto", "name": "Rainy Days 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "⛈️ Thunderstorms",
+      "items": [
+        {"id": "c013_01", "type": "auto", "name": "Thunderstorms 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_02", "type": "auto", "name": "Thunderstorms 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_03", "type": "auto", "name": "Thunderstorms 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_04", "type": "auto", "name": "Thunderstorms 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_05", "type": "auto", "name": "Thunderstorms 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_06", "type": "auto", "name": "Thunderstorms 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_07", "type": "auto", "name": "Thunderstorms 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_08", "type": "auto", "name": "Thunderstorms 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_09", "type": "auto", "name": "Thunderstorms 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c013_10", "type": "auto", "name": "Thunderstorms 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌫️ Misty Mornings",
+      "items": [
+        {"id": "c014_01", "type": "auto", "name": "Misty Mornings 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_02", "type": "auto", "name": "Misty Mornings 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_03", "type": "auto", "name": "Misty Mornings 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_04", "type": "auto", "name": "Misty Mornings 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_05", "type": "auto", "name": "Misty Mornings 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_06", "type": "auto", "name": "Misty Mornings 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_07", "type": "auto", "name": "Misty Mornings 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_08", "type": "auto", "name": "Misty Mornings 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_09", "type": "auto", "name": "Misty Mornings 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c014_10", "type": "auto", "name": "Misty Mornings 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌈 Rainbow Skies",
+      "items": [
+        {"id": "c015_01", "type": "auto", "name": "Rainbow Skies 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_02", "type": "auto", "name": "Rainbow Skies 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_03", "type": "auto", "name": "Rainbow Skies 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_04", "type": "auto", "name": "Rainbow Skies 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_05", "type": "auto", "name": "Rainbow Skies 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_06", "type": "auto", "name": "Rainbow Skies 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_07", "type": "auto", "name": "Rainbow Skies 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_08", "type": "auto", "name": "Rainbow Skies 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_09", "type": "auto", "name": "Rainbow Skies 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c015_10", "type": "auto", "name": "Rainbow Skies 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌋 Volcanoes",
+      "items": [
+        {"id": "c016_01", "type": "auto", "name": "Volcanoes 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_02", "type": "auto", "name": "Volcanoes 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_03", "type": "auto", "name": "Volcanoes 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_04", "type": "auto", "name": "Volcanoes 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_05", "type": "auto", "name": "Volcanoes 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_06", "type": "auto", "name": "Volcanoes 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_07", "type": "auto", "name": "Volcanoes 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_08", "type": "auto", "name": "Volcanoes 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_09", "type": "auto", "name": "Volcanoes 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c016_10", "type": "auto", "name": "Volcanoes 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏞️ Rivers & Lakes",
+      "items": [
+        {"id": "c017_01", "type": "auto", "name": "Calm River", "premium": true, "url": "https://pixabay.com/videos/download/x-117844_medium.mp4", "preview_url": ""},
+        {"id": "c017_02", "type": "auto", "name": "Rivers & Lakes 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_03", "type": "auto", "name": "Rivers & Lakes 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_04", "type": "auto", "name": "Rivers & Lakes 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_05", "type": "auto", "name": "Rivers & Lakes 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_06", "type": "auto", "name": "Rivers & Lakes 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_07", "type": "auto", "name": "Rivers & Lakes 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_08", "type": "auto", "name": "Rivers & Lakes 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_09", "type": "auto", "name": "Rivers & Lakes 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c017_10", "type": "auto", "name": "Rivers & Lakes 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌾 Countryside Fields",
+      "items": [
+        {"id": "c018_01", "type": "auto", "name": "Countryside Fields 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_02", "type": "auto", "name": "Countryside Fields 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_03", "type": "auto", "name": "Countryside Fields 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_04", "type": "auto", "name": "Countryside Fields 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_05", "type": "auto", "name": "Countryside Fields 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_06", "type": "auto", "name": "Countryside Fields 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_07", "type": "auto", "name": "Countryside Fields 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_08", "type": "auto", "name": "Countryside Fields 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_09", "type": "auto", "name": "Countryside Fields 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c018_10", "type": "auto", "name": "Countryside Fields 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏖️ Beaches",
+      "items": [
+        {"id": "c019_01", "type": "auto", "name": "Beaches 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_02", "type": "auto", "name": "Beaches 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_03", "type": "auto", "name": "Beaches 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_04", "type": "auto", "name": "Beaches 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_05", "type": "auto", "name": "Beaches 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_06", "type": "auto", "name": "Beaches 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_07", "type": "auto", "name": "Beaches 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_08", "type": "auto", "name": "Beaches 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_09", "type": "auto", "name": "Beaches 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c019_10", "type": "auto", "name": "Beaches 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🪨 Canyons & Cliffs",
+      "items": [
+        {"id": "c020_01", "type": "auto", "name": "Canyons & Cliffs 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_02", "type": "auto", "name": "Canyons & Cliffs 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_03", "type": "auto", "name": "Canyons & Cliffs 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_04", "type": "auto", "name": "Canyons & Cliffs 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_05", "type": "auto", "name": "Canyons & Cliffs 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_06", "type": "auto", "name": "Canyons & Cliffs 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_07", "type": "auto", "name": "Canyons & Cliffs 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_08", "type": "auto", "name": "Canyons & Cliffs 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_09", "type": "auto", "name": "Canyons & Cliffs 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c020_10", "type": "auto", "name": "Canyons & Cliffs 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌃 Tokyo Nights",
+      "items": [
+        {"id": "c021_01", "type": "auto", "name": "Tokyo Nights 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_02", "type": "auto", "name": "Tokyo Nights 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_03", "type": "auto", "name": "Tokyo Nights 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_04", "type": "auto", "name": "Tokyo Nights 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_05", "type": "auto", "name": "Tokyo Nights 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_06", "type": "auto", "name": "Tokyo Nights 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_07", "type": "auto", "name": "Tokyo Nights 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_08", "type": "auto", "name": "Tokyo Nights 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_09", "type": "auto", "name": "Tokyo Nights 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c021_10", "type": "auto", "name": "Tokyo Nights 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🗽 New York",
+      "items": [
+        {"id": "c022_01", "type": "auto", "name": "New York 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_02", "type": "auto", "name": "New York 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_03", "type": "auto", "name": "New York 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_04", "type": "auto", "name": "New York 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_05", "type": "auto", "name": "New York 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_06", "type": "auto", "name": "New York 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_07", "type": "auto", "name": "New York 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_08", "type": "auto", "name": "New York 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_09", "type": "auto", "name": "New York 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c022_10", "type": "auto", "name": "New York 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🗼 Paris",
+      "items": [
+        {"id": "c023_01", "type": "auto", "name": "Paris 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_02", "type": "auto", "name": "Paris 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_03", "type": "auto", "name": "Paris 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_04", "type": "auto", "name": "Paris 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_05", "type": "auto", "name": "Paris 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_06", "type": "auto", "name": "Paris 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_07", "type": "auto", "name": "Paris 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_08", "type": "auto", "name": "Paris 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_09", "type": "auto", "name": "Paris 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c023_10", "type": "auto", "name": "Paris 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🎡 London",
+      "items": [
+        {"id": "c024_01", "type": "auto", "name": "London 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_02", "type": "auto", "name": "London 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_03", "type": "auto", "name": "London 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_04", "type": "auto", "name": "London 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_05", "type": "auto", "name": "London 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_06", "type": "auto", "name": "London 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_07", "type": "auto", "name": "London 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_08", "type": "auto", "name": "London 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_09", "type": "auto", "name": "London 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c024_10", "type": "auto", "name": "London 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏙️ Dubai",
+      "items": [
+        {"id": "c025_01", "type": "auto", "name": "Dubai 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_02", "type": "auto", "name": "Dubai 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_03", "type": "auto", "name": "Dubai 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_04", "type": "auto", "name": "Dubai 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_05", "type": "auto", "name": "Dubai 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_06", "type": "auto", "name": "Dubai 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_07", "type": "auto", "name": "Dubai 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_08", "type": "auto", "name": "Dubai 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_09", "type": "auto", "name": "Dubai 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c025_10", "type": "auto", "name": "Dubai 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏛️ Rome & Italy",
+      "items": [
+        {"id": "c026_01", "type": "auto", "name": "Rome & Italy 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_02", "type": "auto", "name": "Rome & Italy 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_03", "type": "auto", "name": "Rome & Italy 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_04", "type": "auto", "name": "Rome & Italy 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_05", "type": "auto", "name": "Rome & Italy 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_06", "type": "auto", "name": "Rome & Italy 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_07", "type": "auto", "name": "Rome & Italy 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_08", "type": "auto", "name": "Rome & Italy 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_09", "type": "auto", "name": "Rome & Italy 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c026_10", "type": "auto", "name": "Rome & Italy 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🕌 Istanbul & Morocco",
+      "items": [
+        {"id": "c027_01", "type": "auto", "name": "Istanbul & Morocco 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_02", "type": "auto", "name": "Istanbul & Morocco 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_03", "type": "auto", "name": "Istanbul & Morocco 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_04", "type": "auto", "name": "Istanbul & Morocco 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_05", "type": "auto", "name": "Istanbul & Morocco 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_06", "type": "auto", "name": "Istanbul & Morocco 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_07", "type": "auto", "name": "Istanbul & Morocco 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_08", "type": "auto", "name": "Istanbul & Morocco 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_09", "type": "auto", "name": "Istanbul & Morocco 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c027_10", "type": "auto", "name": "Istanbul & Morocco 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌉 San Francisco",
+      "items": [
+        {"id": "c028_01", "type": "auto", "name": "San Francisco 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_02", "type": "auto", "name": "San Francisco 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_03", "type": "auto", "name": "San Francisco 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_04", "type": "auto", "name": "San Francisco 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_05", "type": "auto", "name": "San Francisco 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_06", "type": "auto", "name": "San Francisco 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_07", "type": "auto", "name": "San Francisco 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_08", "type": "auto", "name": "San Francisco 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_09", "type": "auto", "name": "San Francisco 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c028_10", "type": "auto", "name": "San Francisco 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏯 Kyoto & Japan",
+      "items": [
+        {"id": "c029_01", "type": "auto", "name": "Kyoto & Japan 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_02", "type": "auto", "name": "Kyoto & Japan 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_03", "type": "auto", "name": "Kyoto & Japan 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_04", "type": "auto", "name": "Kyoto & Japan 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_05", "type": "auto", "name": "Kyoto & Japan 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_06", "type": "auto", "name": "Kyoto & Japan 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_07", "type": "auto", "name": "Kyoto & Japan 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_08", "type": "auto", "name": "Kyoto & Japan 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_09", "type": "auto", "name": "Kyoto & Japan 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c029_10", "type": "auto", "name": "Kyoto & Japan 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌆 City Skylines",
+      "items": [
+        {"id": "c030_01", "type": "auto", "name": "City Skylines 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_02", "type": "auto", "name": "City Skylines 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_03", "type": "auto", "name": "City Skylines 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_04", "type": "auto", "name": "City Skylines 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_05", "type": "auto", "name": "City Skylines 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_06", "type": "auto", "name": "City Skylines 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_07", "type": "auto", "name": "City Skylines 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_08", "type": "auto", "name": "City Skylines 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_09", "type": "auto", "name": "City Skylines 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c030_10", "type": "auto", "name": "City Skylines 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🚇 Urban Life",
+      "items": [
+        {"id": "c031_01", "type": "auto", "name": "Urban Life 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_02", "type": "auto", "name": "Urban Life 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_03", "type": "auto", "name": "Urban Life 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_04", "type": "auto", "name": "Urban Life 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_05", "type": "auto", "name": "Urban Life 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_06", "type": "auto", "name": "Urban Life 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_07", "type": "auto", "name": "Urban Life 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_08", "type": "auto", "name": "Urban Life 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_09", "type": "auto", "name": "Urban Life 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c031_10", "type": "auto", "name": "Urban Life 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🚦 Traffic Time-lapse",
+      "items": [
+        {"id": "c032_01", "type": "auto", "name": "Traffic Time-lapse 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_02", "type": "auto", "name": "Traffic Time-lapse 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_03", "type": "auto", "name": "Traffic Time-lapse 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_04", "type": "auto", "name": "Traffic Time-lapse 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_05", "type": "auto", "name": "Traffic Time-lapse 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_06", "type": "auto", "name": "Traffic Time-lapse 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_07", "type": "auto", "name": "Traffic Time-lapse 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_08", "type": "auto", "name": "Traffic Time-lapse 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_09", "type": "auto", "name": "Traffic Time-lapse 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c032_10", "type": "auto", "name": "Traffic Time-lapse 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏘️ Old Towns",
+      "items": [
+        {"id": "c033_01", "type": "auto", "name": "Old Towns 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_02", "type": "auto", "name": "Old Towns 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_03", "type": "auto", "name": "Old Towns 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_04", "type": "auto", "name": "Old Towns 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_05", "type": "auto", "name": "Old Towns 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_06", "type": "auto", "name": "Old Towns 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_07", "type": "auto", "name": "Old Towns 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_08", "type": "auto", "name": "Old Towns 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_09", "type": "auto", "name": "Old Towns 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c033_10", "type": "auto", "name": "Old Towns 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🛣️ Road Trips",
+      "items": [
+        {"id": "c034_01", "type": "auto", "name": "Road Trips 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_02", "type": "auto", "name": "Road Trips 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_03", "type": "auto", "name": "Road Trips 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_04", "type": "auto", "name": "Road Trips 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_05", "type": "auto", "name": "Road Trips 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_06", "type": "auto", "name": "Road Trips 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_07", "type": "auto", "name": "Road Trips 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_08", "type": "auto", "name": "Road Trips 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_09", "type": "auto", "name": "Road Trips 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c034_10", "type": "auto", "name": "Road Trips 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "✈️ Aerial Drone Views",
+      "items": [
+        {"id": "c035_01", "type": "auto", "name": "Aerial Drone Views 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_02", "type": "auto", "name": "Aerial Drone Views 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_03", "type": "auto", "name": "Aerial Drone Views 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_04", "type": "auto", "name": "Aerial Drone Views 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_05", "type": "auto", "name": "Aerial Drone Views 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_06", "type": "auto", "name": "Aerial Drone Views 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_07", "type": "auto", "name": "Aerial Drone Views 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_08", "type": "auto", "name": "Aerial Drone Views 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_09", "type": "auto", "name": "Aerial Drone Views 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c035_10", "type": "auto", "name": "Aerial Drone Views 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🦁 Wildlife Safari",
+      "items": [
+        {"id": "c036_01", "type": "auto", "name": "Wildlife Safari 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_02", "type": "auto", "name": "Wildlife Safari 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_03", "type": "auto", "name": "Wildlife Safari 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_04", "type": "auto", "name": "Wildlife Safari 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_05", "type": "auto", "name": "Wildlife Safari 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_06", "type": "auto", "name": "Wildlife Safari 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_07", "type": "auto", "name": "Wildlife Safari 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_08", "type": "auto", "name": "Wildlife Safari 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_09", "type": "auto", "name": "Wildlife Safari 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c036_10", "type": "auto", "name": "Wildlife Safari 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐘 Elephants & Giants",
+      "items": [
+        {"id": "c037_01", "type": "auto", "name": "Elephants & Giants 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_02", "type": "auto", "name": "Elephants & Giants 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_03", "type": "auto", "name": "Elephants & Giants 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_04", "type": "auto", "name": "Elephants & Giants 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_05", "type": "auto", "name": "Elephants & Giants 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_06", "type": "auto", "name": "Elephants & Giants 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_07", "type": "auto", "name": "Elephants & Giants 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_08", "type": "auto", "name": "Elephants & Giants 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_09", "type": "auto", "name": "Elephants & Giants 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c037_10", "type": "auto", "name": "Elephants & Giants 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🦜 Birds & Parrots",
+      "items": [
+        {"id": "c038_01", "type": "auto", "name": "Birds & Parrots 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_02", "type": "auto", "name": "Birds & Parrots 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_03", "type": "auto", "name": "Birds & Parrots 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_04", "type": "auto", "name": "Birds & Parrots 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_05", "type": "auto", "name": "Birds & Parrots 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_06", "type": "auto", "name": "Birds & Parrots 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_07", "type": "auto", "name": "Birds & Parrots 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_08", "type": "auto", "name": "Birds & Parrots 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_09", "type": "auto", "name": "Birds & Parrots 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c038_10", "type": "auto", "name": "Birds & Parrots 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐠 Coral Reef",
+      "items": [
+        {"id": "c039_01", "type": "auto", "name": "Coral Reef 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_02", "type": "auto", "name": "Coral Reef 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_03", "type": "auto", "name": "Coral Reef 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_04", "type": "auto", "name": "Coral Reef 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_05", "type": "auto", "name": "Coral Reef 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_06", "type": "auto", "name": "Coral Reef 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_07", "type": "auto", "name": "Coral Reef 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_08", "type": "auto", "name": "Coral Reef 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_09", "type": "auto", "name": "Coral Reef 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c039_10", "type": "auto", "name": "Coral Reef 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐋 Whales & Dolphins",
+      "items": [
+        {"id": "c040_01", "type": "auto", "name": "Whales & Dolphins 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_02", "type": "auto", "name": "Whales & Dolphins 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_03", "type": "auto", "name": "Whales & Dolphins 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_04", "type": "auto", "name": "Whales & Dolphins 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_05", "type": "auto", "name": "Whales & Dolphins 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_06", "type": "auto", "name": "Whales & Dolphins 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_07", "type": "auto", "name": "Whales & Dolphins 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_08", "type": "auto", "name": "Whales & Dolphins 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_09", "type": "auto", "name": "Whales & Dolphins 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c040_10", "type": "auto", "name": "Whales & Dolphins 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐻‍❄️ Arctic Animals",
+      "items": [
+        {"id": "c041_01", "type": "auto", "name": "Arctic Animals 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_02", "type": "auto", "name": "Arctic Animals 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_03", "type": "auto", "name": "Arctic Animals 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_04", "type": "auto", "name": "Arctic Animals 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_05", "type": "auto", "name": "Arctic Animals 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_06", "type": "auto", "name": "Arctic Animals 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_07", "type": "auto", "name": "Arctic Animals 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_08", "type": "auto", "name": "Arctic Animals 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_09", "type": "auto", "name": "Arctic Animals 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c041_10", "type": "auto", "name": "Arctic Animals 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐺 Forest Predators",
+      "items": [
+        {"id": "c042_01", "type": "auto", "name": "Forest Predators 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_02", "type": "auto", "name": "Forest Predators 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_03", "type": "auto", "name": "Forest Predators 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_04", "type": "auto", "name": "Forest Predators 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_05", "type": "auto", "name": "Forest Predators 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_06", "type": "auto", "name": "Forest Predators 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_07", "type": "auto", "name": "Forest Predators 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_08", "type": "auto", "name": "Forest Predators 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_09", "type": "auto", "name": "Forest Predators 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c042_10", "type": "auto", "name": "Forest Predators 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🦋 Butterflies & Insects",
+      "items": [
+        {"id": "c043_01", "type": "auto", "name": "Butterflies & Insects 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_02", "type": "auto", "name": "Butterflies & Insects 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_03", "type": "auto", "name": "Butterflies & Insects 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_04", "type": "auto", "name": "Butterflies & Insects 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_05", "type": "auto", "name": "Butterflies & Insects 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_06", "type": "auto", "name": "Butterflies & Insects 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_07", "type": "auto", "name": "Butterflies & Insects 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_08", "type": "auto", "name": "Butterflies & Insects 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_09", "type": "auto", "name": "Butterflies & Insects 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c043_10", "type": "auto", "name": "Butterflies & Insects 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐴 Horses",
+      "items": [
+        {"id": "c044_01", "type": "auto", "name": "Horses 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_02", "type": "auto", "name": "Horses 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_03", "type": "auto", "name": "Horses 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_04", "type": "auto", "name": "Horses 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_05", "type": "auto", "name": "Horses 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_06", "type": "auto", "name": "Horses 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_07", "type": "auto", "name": "Horses 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_08", "type": "auto", "name": "Horses 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_09", "type": "auto", "name": "Horses 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c044_10", "type": "auto", "name": "Horses 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐶 Cute Pets",
+      "items": [
+        {"id": "c045_01", "type": "auto", "name": "Cute Pets 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_02", "type": "auto", "name": "Cute Pets 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_03", "type": "auto", "name": "Cute Pets 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_04", "type": "auto", "name": "Cute Pets 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_05", "type": "auto", "name": "Cute Pets 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_06", "type": "auto", "name": "Cute Pets 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_07", "type": "auto", "name": "Cute Pets 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_08", "type": "auto", "name": "Cute Pets 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_09", "type": "auto", "name": "Cute Pets 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c045_10", "type": "auto", "name": "Cute Pets 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐱 Cats",
+      "items": [
+        {"id": "c046_01", "type": "auto", "name": "Cats 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_02", "type": "auto", "name": "Cats 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_03", "type": "auto", "name": "Cats 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_04", "type": "auto", "name": "Cats 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_05", "type": "auto", "name": "Cats 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_06", "type": "auto", "name": "Cats 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_07", "type": "auto", "name": "Cats 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_08", "type": "auto", "name": "Cats 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_09", "type": "auto", "name": "Cats 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c046_10", "type": "auto", "name": "Cats 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🦉 Night Creatures",
+      "items": [
+        {"id": "c047_01", "type": "auto", "name": "Night Creatures 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_02", "type": "auto", "name": "Night Creatures 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_03", "type": "auto", "name": "Night Creatures 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_04", "type": "auto", "name": "Night Creatures 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_05", "type": "auto", "name": "Night Creatures 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_06", "type": "auto", "name": "Night Creatures 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_07", "type": "auto", "name": "Night Creatures 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_08", "type": "auto", "name": "Night Creatures 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_09", "type": "auto", "name": "Night Creatures 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c047_10", "type": "auto", "name": "Night Creatures 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐢 Sea Turtles",
+      "items": [
+        {"id": "c048_01", "type": "auto", "name": "Sea Turtles 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_02", "type": "auto", "name": "Sea Turtles 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_03", "type": "auto", "name": "Sea Turtles 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_04", "type": "auto", "name": "Sea Turtles 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_05", "type": "auto", "name": "Sea Turtles 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_06", "type": "auto", "name": "Sea Turtles 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_07", "type": "auto", "name": "Sea Turtles 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_08", "type": "auto", "name": "Sea Turtles 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_09", "type": "auto", "name": "Sea Turtles 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c048_10", "type": "auto", "name": "Sea Turtles 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🦌 Deer & Woodlands",
+      "items": [
+        {"id": "c049_01", "type": "auto", "name": "Deer & Woodlands 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_02", "type": "auto", "name": "Deer & Woodlands 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_03", "type": "auto", "name": "Deer & Woodlands 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_04", "type": "auto", "name": "Deer & Woodlands 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_05", "type": "auto", "name": "Deer & Woodlands 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_06", "type": "auto", "name": "Deer & Woodlands 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_07", "type": "auto", "name": "Deer & Woodlands 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_08", "type": "auto", "name": "Deer & Woodlands 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_09", "type": "auto", "name": "Deer & Woodlands 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c049_10", "type": "auto", "name": "Deer & Woodlands 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🐧 Penguins",
+      "items": [
+        {"id": "c050_01", "type": "auto", "name": "Penguins 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_02", "type": "auto", "name": "Penguins 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_03", "type": "auto", "name": "Penguins 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_04", "type": "auto", "name": "Penguins 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_05", "type": "auto", "name": "Penguins 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_06", "type": "auto", "name": "Penguins 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_07", "type": "auto", "name": "Penguins 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_08", "type": "auto", "name": "Penguins 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_09", "type": "auto", "name": "Penguins 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c050_10", "type": "auto", "name": "Penguins 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
       "name": "🕯️ Cozy Interiors",
       "items": [
-        { "id": "z1", "type": "video", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/x-190776_medium.mp4", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3" },
-        { "id": "z2", "type": "video", "name": "Rain on Library Window", "premium": true, "url": "https://your-host.com/z2.mp4" },
-        { "id": "z3", "type": "image", "name": "Warm Attic Rain", "premium": true, "url": "https://your-host.com/z3.jpg", "audio_url": "https://your-host.com/rain_sound.mp3" },
-        { "id": "z4", "type": "video", "name": "Jazz Coffee Shop", "premium": true, "url": "https://your-host.com/z4.mp4" },
-        { "id": "z5", "type": "image", "name": "Bedroom Thunderstorm", "premium": true, "url": "https://your-host.com/z5.jpg" }
+        {"id": "c051_01", "type": "auto", "name": "Cozy Interiors 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_02", "type": "auto", "name": "Cozy Interiors 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_03", "type": "auto", "name": "Cozy Interiors 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_04", "type": "auto", "name": "Cozy Interiors 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_05", "type": "auto", "name": "Cozy Interiors 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_06", "type": "auto", "name": "Cozy Interiors 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_07", "type": "auto", "name": "Cozy Interiors 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_08", "type": "auto", "name": "Cozy Interiors 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_09", "type": "auto", "name": "Cozy Interiors 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c051_10", "type": "auto", "name": "Cozy Interiors 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
-      "name": "🌊 Tropical Escapes",
+      "name": "🔥 Fireplaces",
       "items": [
-        { "id": "t1", "type": "video", "name": "Maldives Crystal Water", "premium": true, "url": "https://your-host.com/t1.mp4" },
-        { "id": "t2", "type": "image", "name": "Bora Bora Sunset", "premium": true, "url": "https://your-host.com/t2.jpg" },
-        { "id": "t3", "type": "video", "name": "Palm Trees Wind", "premium": true, "url": "https://your-host.com/t3.mp4" },
-        { "id": "t4", "type": "image", "name": "White Sand Beach", "premium": true, "url": "https://your-host.com/t4.jpg" },
-        { "id": "t5", "type": "video", "name": "Underwater Coral Reef", "premium": true, "url": "https://your-host.com/t5.mp4" }
+        {"id": "c052_01", "type": "auto", "name": "Vintage Fireplace", "premium": true, "url": "https://pixabay.com/videos/download/x-190776_medium.mp4", "preview_url": "", "audio_url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3"},
+        {"id": "c052_02", "type": "auto", "name": "Fireplaces 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_03", "type": "auto", "name": "Fireplaces 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_04", "type": "auto", "name": "Fireplaces 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_05", "type": "auto", "name": "Fireplaces 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_06", "type": "auto", "name": "Fireplaces 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_07", "type": "auto", "name": "Fireplaces 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_08", "type": "auto", "name": "Fireplaces 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_09", "type": "auto", "name": "Fireplaces 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c052_10", "type": "auto", "name": "Fireplaces 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
-      "name": "🎨 Abstract & Art",
+      "name": "☕ Coffee Shops",
       "items": [
-        { "id": "a1", "type": "animation", "name": "Liquid Gold Flow", "premium": true, "bg1": "#1a1a1a", "bg2": "#bf953f", "palette": ["#fcf6ba", "#ffffff"] },
-        { "id": "a2", "type": "animation", "name": "Cyber Grid", "premium": true, "bg1": "#000000", "bg2": "#001a1a", "palette": ["#00ffcc", "#0080ff"] },
-        { "id": "a3", "type": "animation", "name": "Blue Silk Waves", "premium": true, "bg1": "#000d1a", "bg2": "#00264d", "palette": ["#0080ff", "#ffffff"] }
+        {"id": "c053_01", "type": "auto", "name": "Coffee Shops 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_02", "type": "auto", "name": "Coffee Shops 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_03", "type": "auto", "name": "Coffee Shops 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_04", "type": "auto", "name": "Coffee Shops 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_05", "type": "auto", "name": "Coffee Shops 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_06", "type": "auto", "name": "Coffee Shops 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_07", "type": "auto", "name": "Coffee Shops 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_08", "type": "auto", "name": "Coffee Shops 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_09", "type": "auto", "name": "Coffee Shops 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c053_10", "type": "auto", "name": "Coffee Shops 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
       ]
     },
     {
-      "name": "🦁 Wildlife Haven",
+      "name": "📚 Libraries",
       "items": [
-        { "id": "w1", "type": "video", "name": "Lion King Savannah", "premium": true, "url": "https://your-host.com/w1.mp4" },
-        { "id": "w2", "type": "image", "name": "Amazon Macaws", "premium": true, "url": "https://your-host.com/w2.jpg" },
-        { "id": "w3", "type": "video", "name": "Gentle Giants Elephants", "premium": true, "url": "https://your-host.com/w3.mp4" },
-        { "id": "w4", "type": "image", "name": "Polar Bear Arctic", "premium": true, "url": "https://your-host.com/w4.jpg" }
+        {"id": "c054_01", "type": "auto", "name": "Libraries 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_02", "type": "auto", "name": "Libraries 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_03", "type": "auto", "name": "Libraries 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_04", "type": "auto", "name": "Libraries 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_05", "type": "auto", "name": "Libraries 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_06", "type": "auto", "name": "Libraries 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_07", "type": "auto", "name": "Libraries 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_08", "type": "auto", "name": "Libraries 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_09", "type": "auto", "name": "Libraries 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c054_10", "type": "auto", "name": "Libraries 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🛏️ Bedroom Vibes",
+      "items": [
+        {"id": "c055_01", "type": "auto", "name": "Bedroom Vibes 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_02", "type": "auto", "name": "Bedroom Vibes 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_03", "type": "auto", "name": "Bedroom Vibes 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_04", "type": "auto", "name": "Bedroom Vibes 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_05", "type": "auto", "name": "Bedroom Vibes 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_06", "type": "auto", "name": "Bedroom Vibes 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_07", "type": "auto", "name": "Bedroom Vibes 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_08", "type": "auto", "name": "Bedroom Vibes 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_09", "type": "auto", "name": "Bedroom Vibes 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c055_10", "type": "auto", "name": "Bedroom Vibes 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🎷 Jazz Lounges",
+      "items": [
+        {"id": "c056_01", "type": "auto", "name": "Jazz Lounges 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_02", "type": "auto", "name": "Jazz Lounges 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_03", "type": "auto", "name": "Jazz Lounges 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_04", "type": "auto", "name": "Jazz Lounges 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_05", "type": "auto", "name": "Jazz Lounges 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_06", "type": "auto", "name": "Jazz Lounges 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_07", "type": "auto", "name": "Jazz Lounges 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_08", "type": "auto", "name": "Jazz Lounges 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_09", "type": "auto", "name": "Jazz Lounges 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c056_10", "type": "auto", "name": "Jazz Lounges 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🪟 Rainy Windows",
+      "items": [
+        {"id": "c057_01", "type": "auto", "name": "Rainy Windows 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_02", "type": "auto", "name": "Rainy Windows 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_03", "type": "auto", "name": "Rainy Windows 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_04", "type": "auto", "name": "Rainy Windows 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_05", "type": "auto", "name": "Rainy Windows 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_06", "type": "auto", "name": "Rainy Windows 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_07", "type": "auto", "name": "Rainy Windows 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_08", "type": "auto", "name": "Rainy Windows 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_09", "type": "auto", "name": "Rainy Windows 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c057_10", "type": "auto", "name": "Rainy Windows 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏡 Cabins",
+      "items": [
+        {"id": "c058_01", "type": "auto", "name": "Cabins 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_02", "type": "auto", "name": "Cabins 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_03", "type": "auto", "name": "Cabins 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_04", "type": "auto", "name": "Cabins 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_05", "type": "auto", "name": "Cabins 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_06", "type": "auto", "name": "Cabins 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_07", "type": "auto", "name": "Cabins 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_08", "type": "auto", "name": "Cabins 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_09", "type": "auto", "name": "Cabins 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c058_10", "type": "auto", "name": "Cabins 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🍵 Tea Time",
+      "items": [
+        {"id": "c059_01", "type": "auto", "name": "Tea Time 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_02", "type": "auto", "name": "Tea Time 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_03", "type": "auto", "name": "Tea Time 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_04", "type": "auto", "name": "Tea Time 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_05", "type": "auto", "name": "Tea Time 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_06", "type": "auto", "name": "Tea Time 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_07", "type": "auto", "name": "Tea Time 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_08", "type": "auto", "name": "Tea Time 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_09", "type": "auto", "name": "Tea Time 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c059_10", "type": "auto", "name": "Tea Time 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🎄 Christmas Magic",
+      "items": [
+        {"id": "c060_01", "type": "auto", "name": "Christmas Magic 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_02", "type": "auto", "name": "Christmas Magic 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_03", "type": "auto", "name": "Christmas Magic 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_04", "type": "auto", "name": "Christmas Magic 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_05", "type": "auto", "name": "Christmas Magic 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_06", "type": "auto", "name": "Christmas Magic 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_07", "type": "auto", "name": "Christmas Magic 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_08", "type": "auto", "name": "Christmas Magic 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_09", "type": "auto", "name": "Christmas Magic 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c060_10", "type": "auto", "name": "Christmas Magic 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🪐 Planets",
+      "items": [
+        {"id": "c061_01", "type": "auto", "name": "Planets 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_02", "type": "auto", "name": "Planets 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_03", "type": "auto", "name": "Planets 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_04", "type": "auto", "name": "Planets 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_05", "type": "auto", "name": "Planets 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_06", "type": "auto", "name": "Planets 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_07", "type": "auto", "name": "Planets 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_08", "type": "auto", "name": "Planets 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_09", "type": "auto", "name": "Planets 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c061_10", "type": "auto", "name": "Planets 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "☄️ Galaxies & Nebulae",
+      "items": [
+        {"id": "c062_01", "type": "auto", "name": "Galaxies & Nebulae 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_02", "type": "auto", "name": "Galaxies & Nebulae 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_03", "type": "auto", "name": "Galaxies & Nebulae 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_04", "type": "auto", "name": "Galaxies & Nebulae 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_05", "type": "auto", "name": "Galaxies & Nebulae 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_06", "type": "auto", "name": "Galaxies & Nebulae 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_07", "type": "auto", "name": "Galaxies & Nebulae 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_08", "type": "auto", "name": "Galaxies & Nebulae 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_09", "type": "auto", "name": "Galaxies & Nebulae 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c062_10", "type": "auto", "name": "Galaxies & Nebulae 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌙 Moon & Lunar",
+      "items": [
+        {"id": "c063_01", "type": "auto", "name": "Moon & Lunar 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_02", "type": "auto", "name": "Moon & Lunar 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_03", "type": "auto", "name": "Moon & Lunar 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_04", "type": "auto", "name": "Moon & Lunar 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_05", "type": "auto", "name": "Moon & Lunar 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_06", "type": "auto", "name": "Moon & Lunar 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_07", "type": "auto", "name": "Moon & Lunar 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_08", "type": "auto", "name": "Moon & Lunar 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_09", "type": "auto", "name": "Moon & Lunar 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c063_10", "type": "auto", "name": "Moon & Lunar 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "☀️ Sun & Solar",
+      "items": [
+        {"id": "c064_01", "type": "auto", "name": "Sun & Solar 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_02", "type": "auto", "name": "Sun & Solar 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_03", "type": "auto", "name": "Sun & Solar 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_04", "type": "auto", "name": "Sun & Solar 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_05", "type": "auto", "name": "Sun & Solar 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_06", "type": "auto", "name": "Sun & Solar 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_07", "type": "auto", "name": "Sun & Solar 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_08", "type": "auto", "name": "Sun & Solar 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_09", "type": "auto", "name": "Sun & Solar 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c064_10", "type": "auto", "name": "Sun & Solar 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🚀 Space Travel",
+      "items": [
+        {"id": "c065_01", "type": "auto", "name": "Space Travel 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_02", "type": "auto", "name": "Space Travel 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_03", "type": "auto", "name": "Space Travel 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_04", "type": "auto", "name": "Space Travel 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_05", "type": "auto", "name": "Space Travel 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_06", "type": "auto", "name": "Space Travel 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_07", "type": "auto", "name": "Space Travel 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_08", "type": "auto", "name": "Space Travel 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_09", "type": "auto", "name": "Space Travel 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c065_10", "type": "auto", "name": "Space Travel 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌠 Meteor Showers",
+      "items": [
+        {"id": "c066_01", "type": "auto", "name": "Meteor Showers 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_02", "type": "auto", "name": "Meteor Showers 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_03", "type": "auto", "name": "Meteor Showers 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_04", "type": "auto", "name": "Meteor Showers 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_05", "type": "auto", "name": "Meteor Showers 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_06", "type": "auto", "name": "Meteor Showers 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_07", "type": "auto", "name": "Meteor Showers 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_08", "type": "auto", "name": "Meteor Showers 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_09", "type": "auto", "name": "Meteor Showers 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c066_10", "type": "auto", "name": "Meteor Showers 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🛰️ Earth from Orbit",
+      "items": [
+        {"id": "c067_01", "type": "auto", "name": "Earth from Orbit 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_02", "type": "auto", "name": "Earth from Orbit 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_03", "type": "auto", "name": "Earth from Orbit 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_04", "type": "auto", "name": "Earth from Orbit 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_05", "type": "auto", "name": "Earth from Orbit 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_06", "type": "auto", "name": "Earth from Orbit 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_07", "type": "auto", "name": "Earth from Orbit 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_08", "type": "auto", "name": "Earth from Orbit 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_09", "type": "auto", "name": "Earth from Orbit 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c067_10", "type": "auto", "name": "Earth from Orbit 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌌 Aurora Borealis",
+      "items": [
+        {"id": "c068_01", "type": "auto", "name": "Aurora Borealis 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_02", "type": "auto", "name": "Aurora Borealis 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_03", "type": "auto", "name": "Aurora Borealis 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_04", "type": "auto", "name": "Aurora Borealis 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_05", "type": "auto", "name": "Aurora Borealis 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_06", "type": "auto", "name": "Aurora Borealis 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_07", "type": "auto", "name": "Aurora Borealis 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_08", "type": "auto", "name": "Aurora Borealis 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_09", "type": "auto", "name": "Aurora Borealis 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c068_10", "type": "auto", "name": "Aurora Borealis 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🎨 Abstract Art",
+      "items": [
+        {"id": "c069_01", "type": "animation", "name": "Liquid Gold Flow", "premium": true, "bg1": "#1a1a1a", "bg2": "#bf953f", "palette": ["#fcf6ba", "#ffffff"]},
+        {"id": "c069_02", "type": "animation", "name": "Cyber Grid", "premium": true, "bg1": "#000000", "bg2": "#001a1a", "palette": ["#00ffcc", "#0080ff"]},
+        {"id": "c069_03", "type": "animation", "name": "Blue Silk Waves", "premium": true, "bg1": "#000d1a", "bg2": "#00264d", "palette": ["#0080ff", "#ffffff"]},
+        {"id": "c069_04", "type": "auto", "name": "Abstract Art 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c069_05", "type": "auto", "name": "Abstract Art 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c069_06", "type": "auto", "name": "Abstract Art 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c069_07", "type": "auto", "name": "Abstract Art 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c069_08", "type": "auto", "name": "Abstract Art 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c069_09", "type": "auto", "name": "Abstract Art 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c069_10", "type": "auto", "name": "Abstract Art 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "💫 Particles & Light",
+      "items": [
+        {"id": "c070_01", "type": "auto", "name": "Particles & Light 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_02", "type": "auto", "name": "Particles & Light 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_03", "type": "auto", "name": "Particles & Light 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_04", "type": "auto", "name": "Particles & Light 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_05", "type": "auto", "name": "Particles & Light 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_06", "type": "auto", "name": "Particles & Light 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_07", "type": "auto", "name": "Particles & Light 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_08", "type": "auto", "name": "Particles & Light 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_09", "type": "auto", "name": "Particles & Light 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c070_10", "type": "auto", "name": "Particles & Light 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🔮 Neon Glow",
+      "items": [
+        {"id": "c071_01", "type": "auto", "name": "Neon Glow 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_02", "type": "auto", "name": "Neon Glow 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_03", "type": "auto", "name": "Neon Glow 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_04", "type": "auto", "name": "Neon Glow 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_05", "type": "auto", "name": "Neon Glow 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_06", "type": "auto", "name": "Neon Glow 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_07", "type": "auto", "name": "Neon Glow 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_08", "type": "auto", "name": "Neon Glow 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_09", "type": "auto", "name": "Neon Glow 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c071_10", "type": "auto", "name": "Neon Glow 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌀 Liquid Motion",
+      "items": [
+        {"id": "c072_01", "type": "auto", "name": "Liquid Motion 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_02", "type": "auto", "name": "Liquid Motion 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_03", "type": "auto", "name": "Liquid Motion 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_04", "type": "auto", "name": "Liquid Motion 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_05", "type": "auto", "name": "Liquid Motion 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_06", "type": "auto", "name": "Liquid Motion 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_07", "type": "auto", "name": "Liquid Motion 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_08", "type": "auto", "name": "Liquid Motion 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_09", "type": "auto", "name": "Liquid Motion 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c072_10", "type": "auto", "name": "Liquid Motion 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🧊 Minimal Gradients",
+      "items": [
+        {"id": "c073_01", "type": "auto", "name": "Minimal Gradients 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_02", "type": "auto", "name": "Minimal Gradients 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_03", "type": "auto", "name": "Minimal Gradients 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_04", "type": "auto", "name": "Minimal Gradients 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_05", "type": "auto", "name": "Minimal Gradients 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_06", "type": "auto", "name": "Minimal Gradients 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_07", "type": "auto", "name": "Minimal Gradients 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_08", "type": "auto", "name": "Minimal Gradients 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_09", "type": "auto", "name": "Minimal Gradients 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c073_10", "type": "auto", "name": "Minimal Gradients 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🕹️ Retro Synthwave",
+      "items": [
+        {"id": "c074_01", "type": "auto", "name": "Retro Synthwave 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_02", "type": "auto", "name": "Retro Synthwave 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_03", "type": "auto", "name": "Retro Synthwave 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_04", "type": "auto", "name": "Retro Synthwave 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_05", "type": "auto", "name": "Retro Synthwave 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_06", "type": "auto", "name": "Retro Synthwave 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_07", "type": "auto", "name": "Retro Synthwave 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_08", "type": "auto", "name": "Retro Synthwave 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_09", "type": "auto", "name": "Retro Synthwave 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c074_10", "type": "auto", "name": "Retro Synthwave 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🖼️ Fine Art Paintings",
+      "items": [
+        {"id": "c075_01", "type": "auto", "name": "Fine Art Paintings 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_02", "type": "auto", "name": "Fine Art Paintings 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_03", "type": "auto", "name": "Fine Art Paintings 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_04", "type": "auto", "name": "Fine Art Paintings 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_05", "type": "auto", "name": "Fine Art Paintings 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_06", "type": "auto", "name": "Fine Art Paintings 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_07", "type": "auto", "name": "Fine Art Paintings 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_08", "type": "auto", "name": "Fine Art Paintings 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_09", "type": "auto", "name": "Fine Art Paintings 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c075_10", "type": "auto", "name": "Fine Art Paintings 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "✨ Gold & Luxury",
+      "items": [
+        {"id": "c076_01", "type": "auto", "name": "Gold & Luxury 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_02", "type": "auto", "name": "Gold & Luxury 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_03", "type": "auto", "name": "Gold & Luxury 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_04", "type": "auto", "name": "Gold & Luxury 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_05", "type": "auto", "name": "Gold & Luxury 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_06", "type": "auto", "name": "Gold & Luxury 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_07", "type": "auto", "name": "Gold & Luxury 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_08", "type": "auto", "name": "Gold & Luxury 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_09", "type": "auto", "name": "Gold & Luxury 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c076_10", "type": "auto", "name": "Gold & Luxury 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🎆 Fireworks",
+      "items": [
+        {"id": "c077_01", "type": "auto", "name": "Fireworks 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_02", "type": "auto", "name": "Fireworks 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_03", "type": "auto", "name": "Fireworks 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_04", "type": "auto", "name": "Fireworks 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_05", "type": "auto", "name": "Fireworks 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_06", "type": "auto", "name": "Fireworks 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_07", "type": "auto", "name": "Fireworks 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_08", "type": "auto", "name": "Fireworks 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_09", "type": "auto", "name": "Fireworks 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c077_10", "type": "auto", "name": "Fireworks 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🫧 Bubbles & Water Drops",
+      "items": [
+        {"id": "c078_01", "type": "auto", "name": "Bubbles & Water Drops 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_02", "type": "auto", "name": "Bubbles & Water Drops 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_03", "type": "auto", "name": "Bubbles & Water Drops 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_04", "type": "auto", "name": "Bubbles & Water Drops 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_05", "type": "auto", "name": "Bubbles & Water Drops 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_06", "type": "auto", "name": "Bubbles & Water Drops 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_07", "type": "auto", "name": "Bubbles & Water Drops 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_08", "type": "auto", "name": "Bubbles & Water Drops 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_09", "type": "auto", "name": "Bubbles & Water Drops 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c078_10", "type": "auto", "name": "Bubbles & Water Drops 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🧘 Meditation",
+      "items": [
+        {"id": "c079_01", "type": "auto", "name": "Meditation 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_02", "type": "auto", "name": "Meditation 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_03", "type": "auto", "name": "Meditation 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_04", "type": "auto", "name": "Meditation 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_05", "type": "auto", "name": "Meditation 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_06", "type": "auto", "name": "Meditation 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_07", "type": "auto", "name": "Meditation 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_08", "type": "auto", "name": "Meditation 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_09", "type": "auto", "name": "Meditation 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c079_10", "type": "auto", "name": "Meditation 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "😴 Sleep & Calm",
+      "items": [
+        {"id": "c080_01", "type": "auto", "name": "Sleep & Calm 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_02", "type": "auto", "name": "Sleep & Calm 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_03", "type": "auto", "name": "Sleep & Calm 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_04", "type": "auto", "name": "Sleep & Calm 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_05", "type": "auto", "name": "Sleep & Calm 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_06", "type": "auto", "name": "Sleep & Calm 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_07", "type": "auto", "name": "Sleep & Calm 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_08", "type": "auto", "name": "Sleep & Calm 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_09", "type": "auto", "name": "Sleep & Calm 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c080_10", "type": "auto", "name": "Sleep & Calm 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🎵 Music Visualizers",
+      "items": [
+        {"id": "c081_01", "type": "auto", "name": "Music Visualizers 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_02", "type": "auto", "name": "Music Visualizers 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_03", "type": "auto", "name": "Music Visualizers 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_04", "type": "auto", "name": "Music Visualizers 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_05", "type": "auto", "name": "Music Visualizers 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_06", "type": "auto", "name": "Music Visualizers 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_07", "type": "auto", "name": "Music Visualizers 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_08", "type": "auto", "name": "Music Visualizers 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_09", "type": "auto", "name": "Music Visualizers 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c081_10", "type": "auto", "name": "Music Visualizers 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌬️ Wind & Grass",
+      "items": [
+        {"id": "c082_01", "type": "auto", "name": "Wind & Grass 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_02", "type": "auto", "name": "Wind & Grass 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_03", "type": "auto", "name": "Wind & Grass 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_04", "type": "auto", "name": "Wind & Grass 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_05", "type": "auto", "name": "Wind & Grass 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_06", "type": "auto", "name": "Wind & Grass 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_07", "type": "auto", "name": "Wind & Grass 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_08", "type": "auto", "name": "Wind & Grass 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_09", "type": "auto", "name": "Wind & Grass 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c082_10", "type": "auto", "name": "Wind & Grass 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌺 Flowers",
+      "items": [
+        {"id": "c083_01", "type": "auto", "name": "Flowers 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_02", "type": "auto", "name": "Flowers 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_03", "type": "auto", "name": "Flowers 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_04", "type": "auto", "name": "Flowers 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_05", "type": "auto", "name": "Flowers 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_06", "type": "auto", "name": "Flowers 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_07", "type": "auto", "name": "Flowers 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_08", "type": "auto", "name": "Flowers 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_09", "type": "auto", "name": "Flowers 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c083_10", "type": "auto", "name": "Flowers 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌳 Ancient Trees",
+      "items": [
+        {"id": "c084_01", "type": "auto", "name": "Ancient Trees 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_02", "type": "auto", "name": "Ancient Trees 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_03", "type": "auto", "name": "Ancient Trees 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_04", "type": "auto", "name": "Ancient Trees 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_05", "type": "auto", "name": "Ancient Trees 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_06", "type": "auto", "name": "Ancient Trees 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_07", "type": "auto", "name": "Ancient Trees 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_08", "type": "auto", "name": "Ancient Trees 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_09", "type": "auto", "name": "Ancient Trees 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c084_10", "type": "auto", "name": "Ancient Trees 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🪵 Campfire",
+      "items": [
+        {"id": "c085_01", "type": "auto", "name": "Campfire 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_02", "type": "auto", "name": "Campfire 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_03", "type": "auto", "name": "Campfire 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_04", "type": "auto", "name": "Campfire 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_05", "type": "auto", "name": "Campfire 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_06", "type": "auto", "name": "Campfire 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_07", "type": "auto", "name": "Campfire 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_08", "type": "auto", "name": "Campfire 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_09", "type": "auto", "name": "Campfire 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c085_10", "type": "auto", "name": "Campfire 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏕️ Camping",
+      "items": [
+        {"id": "c086_01", "type": "auto", "name": "Camping 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_02", "type": "auto", "name": "Camping 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_03", "type": "auto", "name": "Camping 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_04", "type": "auto", "name": "Camping 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_05", "type": "auto", "name": "Camping 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_06", "type": "auto", "name": "Camping 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_07", "type": "auto", "name": "Camping 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_08", "type": "auto", "name": "Camping 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_09", "type": "auto", "name": "Camping 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c086_10", "type": "auto", "name": "Camping 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🚂 Trains & Journeys",
+      "items": [
+        {"id": "c087_01", "type": "auto", "name": "Trains & Journeys 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_02", "type": "auto", "name": "Trains & Journeys 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_03", "type": "auto", "name": "Trains & Journeys 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_04", "type": "auto", "name": "Trains & Journeys 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_05", "type": "auto", "name": "Trains & Journeys 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_06", "type": "auto", "name": "Trains & Journeys 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_07", "type": "auto", "name": "Trains & Journeys 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_08", "type": "auto", "name": "Trains & Journeys 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_09", "type": "auto", "name": "Trains & Journeys 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c087_10", "type": "auto", "name": "Trains & Journeys 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "⛵ Sailing",
+      "items": [
+        {"id": "c088_01", "type": "auto", "name": "Sailing 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_02", "type": "auto", "name": "Sailing 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_03", "type": "auto", "name": "Sailing 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_04", "type": "auto", "name": "Sailing 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_05", "type": "auto", "name": "Sailing 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_06", "type": "auto", "name": "Sailing 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_07", "type": "auto", "name": "Sailing 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_08", "type": "auto", "name": "Sailing 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_09", "type": "auto", "name": "Sailing 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c088_10", "type": "auto", "name": "Sailing 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏰 Castles",
+      "items": [
+        {"id": "c089_01", "type": "auto", "name": "Castles 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_02", "type": "auto", "name": "Castles 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_03", "type": "auto", "name": "Castles 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_04", "type": "auto", "name": "Castles 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_05", "type": "auto", "name": "Castles 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_06", "type": "auto", "name": "Castles 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_07", "type": "auto", "name": "Castles 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_08", "type": "auto", "name": "Castles 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_09", "type": "auto", "name": "Castles 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c089_10", "type": "auto", "name": "Castles 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🕌 Sacred Places",
+      "items": [
+        {"id": "c090_01", "type": "auto", "name": "Sacred Places 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_02", "type": "auto", "name": "Sacred Places 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_03", "type": "auto", "name": "Sacred Places 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_04", "type": "auto", "name": "Sacred Places 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_05", "type": "auto", "name": "Sacred Places 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_06", "type": "auto", "name": "Sacred Places 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_07", "type": "auto", "name": "Sacred Places 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_08", "type": "auto", "name": "Sacred Places 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_09", "type": "auto", "name": "Sacred Places 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c090_10", "type": "auto", "name": "Sacred Places 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌍 World Wonders",
+      "items": [
+        {"id": "c091_01", "type": "auto", "name": "World Wonders 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_02", "type": "auto", "name": "World Wonders 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_03", "type": "auto", "name": "World Wonders 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_04", "type": "auto", "name": "World Wonders 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_05", "type": "auto", "name": "World Wonders 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_06", "type": "auto", "name": "World Wonders 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_07", "type": "auto", "name": "World Wonders 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_08", "type": "auto", "name": "World Wonders 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_09", "type": "auto", "name": "World Wonders 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c091_10", "type": "auto", "name": "World Wonders 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏔️ Himalayas",
+      "items": [
+        {"id": "c092_01", "type": "auto", "name": "Himalayas 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_02", "type": "auto", "name": "Himalayas 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_03", "type": "auto", "name": "Himalayas 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_04", "type": "auto", "name": "Himalayas 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_05", "type": "auto", "name": "Himalayas 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_06", "type": "auto", "name": "Himalayas 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_07", "type": "auto", "name": "Himalayas 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_08", "type": "auto", "name": "Himalayas 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_09", "type": "auto", "name": "Himalayas 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c092_10", "type": "auto", "name": "Himalayas 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌴 Palm Trees",
+      "items": [
+        {"id": "c093_01", "type": "auto", "name": "Palm Trees 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_02", "type": "auto", "name": "Palm Trees 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_03", "type": "auto", "name": "Palm Trees 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_04", "type": "auto", "name": "Palm Trees 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_05", "type": "auto", "name": "Palm Trees 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_06", "type": "auto", "name": "Palm Trees 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_07", "type": "auto", "name": "Palm Trees 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_08", "type": "auto", "name": "Palm Trees 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_09", "type": "auto", "name": "Palm Trees 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c093_10", "type": "auto", "name": "Palm Trees 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🍃 Zen Gardens",
+      "items": [
+        {"id": "c094_01", "type": "auto", "name": "Zen Gardens 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_02", "type": "auto", "name": "Zen Gardens 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_03", "type": "auto", "name": "Zen Gardens 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_04", "type": "auto", "name": "Zen Gardens 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_05", "type": "auto", "name": "Zen Gardens 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_06", "type": "auto", "name": "Zen Gardens 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_07", "type": "auto", "name": "Zen Gardens 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_08", "type": "auto", "name": "Zen Gardens 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_09", "type": "auto", "name": "Zen Gardens 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c094_10", "type": "auto", "name": "Zen Gardens 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🏄 Surfing Waves",
+      "items": [
+        {"id": "c095_01", "type": "auto", "name": "Surfing Waves 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_02", "type": "auto", "name": "Surfing Waves 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_03", "type": "auto", "name": "Surfing Waves 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_04", "type": "auto", "name": "Surfing Waves 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_05", "type": "auto", "name": "Surfing Waves 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_06", "type": "auto", "name": "Surfing Waves 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_07", "type": "auto", "name": "Surfing Waves 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_08", "type": "auto", "name": "Surfing Waves 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_09", "type": "auto", "name": "Surfing Waves 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c095_10", "type": "auto", "name": "Surfing Waves 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🧊 Glaciers & Icebergs",
+      "items": [
+        {"id": "c096_01", "type": "auto", "name": "Glaciers & Icebergs 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_02", "type": "auto", "name": "Glaciers & Icebergs 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_03", "type": "auto", "name": "Glaciers & Icebergs 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_04", "type": "auto", "name": "Glaciers & Icebergs 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_05", "type": "auto", "name": "Glaciers & Icebergs 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_06", "type": "auto", "name": "Glaciers & Icebergs 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_07", "type": "auto", "name": "Glaciers & Icebergs 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_08", "type": "auto", "name": "Glaciers & Icebergs 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_09", "type": "auto", "name": "Glaciers & Icebergs 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c096_10", "type": "auto", "name": "Glaciers & Icebergs 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🌻 Sunflower Fields",
+      "items": [
+        {"id": "c097_01", "type": "auto", "name": "Sunflower Fields 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_02", "type": "auto", "name": "Sunflower Fields 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_03", "type": "auto", "name": "Sunflower Fields 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_04", "type": "auto", "name": "Sunflower Fields 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_05", "type": "auto", "name": "Sunflower Fields 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_06", "type": "auto", "name": "Sunflower Fields 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_07", "type": "auto", "name": "Sunflower Fields 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_08", "type": "auto", "name": "Sunflower Fields 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_09", "type": "auto", "name": "Sunflower Fields 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c097_10", "type": "auto", "name": "Sunflower Fields 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "🚁 Helicopter Views",
+      "items": [
+        {"id": "c098_01", "type": "auto", "name": "Helicopter Views 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_02", "type": "auto", "name": "Helicopter Views 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_03", "type": "auto", "name": "Helicopter Views 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_04", "type": "auto", "name": "Helicopter Views 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_05", "type": "auto", "name": "Helicopter Views 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_06", "type": "auto", "name": "Helicopter Views 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_07", "type": "auto", "name": "Helicopter Views 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_08", "type": "auto", "name": "Helicopter Views 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_09", "type": "auto", "name": "Helicopter Views 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c098_10", "type": "auto", "name": "Helicopter Views 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "⏳ Time-lapse",
+      "items": [
+        {"id": "c099_01", "type": "auto", "name": "Time-lapse 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_02", "type": "auto", "name": "Time-lapse 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_03", "type": "auto", "name": "Time-lapse 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_04", "type": "auto", "name": "Time-lapse 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_05", "type": "auto", "name": "Time-lapse 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_06", "type": "auto", "name": "Time-lapse 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_07", "type": "auto", "name": "Time-lapse 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_08", "type": "auto", "name": "Time-lapse 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_09", "type": "auto", "name": "Time-lapse 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c099_10", "type": "auto", "name": "Time-lapse 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
+      ]
+    },
+    {
+      "name": "⭐ Editor's Picks",
+      "items": [
+        {"id": "c100_01", "type": "auto", "name": "Editor's Picks 1", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_02", "type": "auto", "name": "Editor's Picks 2", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_03", "type": "auto", "name": "Editor's Picks 3", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_04", "type": "auto", "name": "Editor's Picks 4", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_05", "type": "auto", "name": "Editor's Picks 5", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_06", "type": "auto", "name": "Editor's Picks 6", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_07", "type": "auto", "name": "Editor's Picks 7", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_08", "type": "auto", "name": "Editor's Picks 8", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_09", "type": "auto", "name": "Editor's Picks 9", "premium": true, "url": "PASTE_LINK", "preview_url": ""},
+        {"id": "c100_10", "type": "auto", "name": "Editor's Picks 10", "premium": true, "url": "PASTE_LINK", "preview_url": ""}
       ]
     }
   ]
