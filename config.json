@@ -1,5 +1,10 @@
 {
-  "amazon_billing": { "sku_monthly": "com.Everscene4K.RelaxingtvScreensaver.monthly", "sku_yearly": "com.Everscene4K.RelaxingtvScreensaver.yearly" },
+  "amazon_billing": {
+  "sku_monthly": "com.Everscene4K.RelaxingtvScreensaver.monthly",
+  "sku_monthly_term": "com.Everscene4K.RelaxingtvScreensaver.monthly1",
+  "sku_yearly": "com.Everscene4K.RelaxingtvScreensaver.yearly",
+  "sku_yearly_term": "com.Everscene4K.RelaxingtvScreensaver.yearly1"
+}
   "all_free": false,
   "unlock": {
     "hashes": [
