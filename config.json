@@ -4,7 +4,7 @@
     "sku_monthly_term": "com.Everscene4K.RelaxingtvScreensaver.monthly2",
     "sku_yearly": "com.Everscene4K.RelaxingtvScreensaver.yearly",
     "sku_yearly_term": "com.Everscene4K.RelaxingtvScreensaver.yearly1"
-  }
+  },
   "all_free": false,
   "unlock": {
     "hashes": [
@@ -26,13 +26,7 @@
     { "name": "Cozy Fireplace", "url": "https://cdn.pixabay.com/audio/2023/11/25/audio_41a3f1192f.mp3" },
     { "name": "Rain on Roof", "url": "https://actions.google.com/sounds/v1/water/rain_on_roof.ogg" },
     { "name": "Morning Birds", "url": "https://actions.google.com/sounds/v1/ambiences/morning_birds.ogg" },
-    { "name": "Fireplace Crackle", "url": "https://actions.google.com/sounds/v1/ambiences/fireplace.ogg" },
-    { "name": "My Track 1", "url": "PASTE_LINK" },
-    { "name": "My Track 2", "url": "PASTE_LINK" },
-    { "name": "My Track 3", "url": "PASTE_LINK" },
-    { "name": "My Track 4", "url": "PASTE_LINK" },
-    { "name": "My Track 5", "url": "PASTE_LINK" },
-    { "name": "My Track 6", "url": "PASTE_LINK" }
+    { "name": "Fireplace Crackle", "url": "https://actions.google.com/sounds/v1/ambiences/fireplace.ogg" }
   ],
   "categories": [
     {
